@@ -85,9 +85,15 @@ section h2 {
 }
 
 #mainNav .navbar-toggler {
-  font-size: 12px;
+  font-size: 32px;
   padding: 8px 10px;
-  color: #222222;
+  color: #fcbd20;
+  border-color: transparent;
+}
+
+#mainNav .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 #mainNav .navbar-nav > li > a {
@@ -95,6 +101,7 @@ section h2 {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
+  color: white;
 }
 
 #mainNav .navbar-nav > li > a.active {
@@ -108,7 +115,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a,
 #mainNav .navbar-nav > li > a:focus {
-  color: #222222;
+  color: white;
 }
 
 #mainNav .navbar-nav > li > a:hover,
