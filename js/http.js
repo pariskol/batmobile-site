@@ -17,7 +17,8 @@ function signUp() {
 
     $.ajax({
         type: "POST",
-        url: "https://onelineman.eu/signup",
+        url: "https://onelineman.eu/api/signup",
+//        url: "http://localhost:8080/signup",
         data: JSON.stringify(data),
         contentType: "application/json; charset=utf-8",
         dataType: "json",
